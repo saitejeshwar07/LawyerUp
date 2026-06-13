@@ -27,6 +27,7 @@ jobs:
         uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: ${{ secrets.GITHUB_TOKEN }}
-          firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_TUTORIAL_5151C }}
+          firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_LAWYERUP_FB623 }}
           channelId: live
-          projectId: tutorial-5151c
+          projectId: lawyerup-fb623
+          
