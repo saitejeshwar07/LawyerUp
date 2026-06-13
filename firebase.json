@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "site": "lawyerup-frontend",
+    "site": "lawyerup-fb623",
     "public": "public",
     "ignore": [
       "firebase.json",
