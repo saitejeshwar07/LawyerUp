@@ -9,8 +9,6 @@ LawyerUp is an AI-powered legal assistance platform designed to make legal suppo
 ![React](https://img.shields.io/badge/Frontend-React-blue)
 ![Firebase](https://img.shields.io/badge/Backend-Firebase-orange)
 ![Gemini](https://img.shields.io/badge/AI-Gemini-green)
-![LangChain](https://img.shields.io/badge/RAG-LangChain-purple)
-![License](https://img.shields.io/badge/License-MIT-red)
 
 ---
 
@@ -148,68 +146,14 @@ LawyerUp is an AI-powered legal assistance platform designed to make legal suppo
 # 🗓️ Development Roadmap
 
 * **Phase 1 – Problem Research & Idea Validation**
-
-  * Identified challenges in accessing affordable legal assistance.
-  * Studied existing legal-tech platforms and user pain points.
-  * Defined the vision and core features of LawyerUp.
-
 * **Phase 2 – Project Planning & System Design**
-
-  * Planned application architecture and user flow.
-  * Designed authentication, AI chatbot, document analyzer, and lawyer search modules.
-  * Created database and component structure.
-
 * **Phase 3 – Frontend Development**
-
-  * Built responsive UI using React.js and Vite.
-  * Developed login, signup, dashboard, and navigation pages.
-  * Implemented a user-friendly legal assistance interface.
-
 * **Phase 4 – Firebase Integration**
-
-  * Configured Firebase Authentication.
-  * Connected Firestore Database.
-  * Integrated Firebase Storage for document uploads.
-
 * **Phase 5 – AI Legal Assistant (LawBot)**
-
-  * Developed conversational legal chatbot.
-  * Integrated LangChain framework.
-  * Connected Pinecone Vector Database for semantic search.
-
 * **Phase 6 – Legal Knowledge Base**
-
-  * Collected legal resources and legal documents.
-  * Processed and indexed data into Pinecone.
-  * Implemented Retrieval-Augmented Generation (RAG) pipeline.
-
 * **Phase 7 – AI Document Analyzer**
-
-  * Built legal document upload system.
-  * Integrated Gemini API for document summarization.
-  * Added key-point extraction and simplified explanations.
-
 * **Phase 8 – Smart Lawyer Discovery**
-
-  * Developed lawyer profile management.
-  * Implemented filtering based on specialization, location, and experience.
-  * Integrated Google Maps API for location-based lawyer search.
-
 * **Phase 9 – Testing & Deployment**
-
-  * Performed debugging and performance optimization.
-  * Fixed frontend, backend, and API integration issues.
-  * Deployed the application using Firebase Hosting.
-
-* **Phase 10 – Future Enhancements**
-
-  * Real-time lawyer-client communication.
-  * AI-powered legal document generation.
-  * Appointment booking system.
-  * Court procedure guidance.
-  * Case tracking dashboard.
-  * Regional language support.
-  * Voice-enabled legal assistant.
 
 ---
 
@@ -218,21 +162,30 @@ LawyerUp is an AI-powered legal assistance platform designed to make legal suppo
 ```text
 LawyerUp/
 │
+├── .github/
+│   └── workflows/
+│
 ├── frontend/
 │   ├── src/
 │   ├── public/
-│   └── components/
+│   ├── package.json
+│   └── vite.config.js
 │
 ├── ML/
 │   ├── AI_DOC_ANALYSER/
-│   └── CHATBOT/
+│   ├── CHATBOT/
+│   └── proactive_agent/
 │
 ├── public/
+│   ├── assets/
+│   ├── logo.png
+│   ├── lawyer.svg
+│   └── index.html
+│
 ├── firebase.json
 ├── storage.rules
-└── README.md
-```
-
+├── README.md
+└── .gitignore
 ---
 
 # 🚀 Quick Start
@@ -337,10 +290,6 @@ http://localhost:5173
 5. Open a Pull Request
 
 ---
-
-# 📄 License
-
-This project is developed for educational, research, and social-impact purposes.
 
 ---
 👨‍💻 Built by Pawar Sai Tejeshwar
